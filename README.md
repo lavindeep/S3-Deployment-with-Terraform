@@ -14,7 +14,7 @@ Deploys a secured S3 bucket on AWS using Terraform with public access restrictio
 │                                                     │
 │  ┌───────────────┐    ┌──────────────────────────┐  │
 │  │  IAM Group    │    │  S3 Bucket               │  │
-│  │  terraform-   │    │  unique-bucket-lavindeep  │  │
+│  │  terraform-   │    │  unique-bucket-lavindeep │  │
 │  │  devs         │    │                          │  │
 │  │  ┌──────────┐ │    │  • Public access blocked │  │
 │  │  │ IAM User │ │    │  • Tagged (Name, Env)    │  │
